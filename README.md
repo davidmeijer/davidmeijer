@@ -1,9 +1,6 @@
 #### Hello! I am David
 I am a [PhD candidate in the Bioinformatics group at Wageningen University](https://www.wur.nl/en/Persons/David-D-David-Meijer-MSc.htm), under the supervision of Dr Marnix Medema and Dr Justin van der Hooft. My interests revolve around the relationship between genotype and metabolome, and I'd like to improve genome mining efforts by inferring what secondary metabolites are produced by what biosynthetic gene clusters.
 
-#### Interests
-Secondary metabolism | Genome mining | Machine learning | Deep learning
-
 #### Why are secondary metabolites, or natural products, so interesting? 
 All sorts of organisms, like microbes, fungi, sponges, and plants, produce compounds to fend off competition, attract partners for symbiotic relationships, or protect oneself. Nature has perfected this chemistry over the course of billions of years of evolution, providing us now with a chemical space that contains a high variety of complex but potent molecules (e.g., antibiotics, surfactants, and pigments). The only problem is that nature is incredibly vast and we don't have the means right now to explore it adequately... 
 
