@@ -1,5 +1,5 @@
 #### Hello! I am David
-I am a PhD candidate in the Bioinformatics group at Wageningen University, under the supervision of Dr Marnix Medema and Dr Justin van der Hooft. My interests revolve around the relationship between genotype and metabolome, and I'd like to improve genome mining efforts by inferring what secondary metabolites are produced by what biosynthetic gene clusters.
+I am a [PhD candidate in the Bioinformatics group at Wageningen University](https://www.wur.nl/en/Persons/David-D-David-Meijer-MSc.htm), under the supervision of Dr Marnix Medema and Dr Justin van der Hooft. My interests revolve around the relationship between genotype and metabolome, and I'd like to improve genome mining efforts by inferring what secondary metabolites are produced by what biosynthetic gene clusters.
 
 #### Why are secondary metabolites, or natural products, so interesting? 
 All sorts of organisms, like microbes, fungi, sponges, and plants, produce compounds to fend off competition, attract partners for symbiotic relationships, or protect oneself. Nature has perfected this chemistry over the course of billions of years of evolution, providing us now with a chemical space that contains a high variety of complex but potent molecules (e.g., antibiotics, surfactants, and pigments). The only problem is that nature is incredibly vast and we don't have the means right now to explore it adequately... 
@@ -8,9 +8,10 @@ All sorts of organisms, like microbes, fungi, sponges, and plants, produce compo
 Genome mining tools like [antiSMASH](https://antismash.secondarymetabolites.org/) can readily mine genomes for coding biosynthetic gene clusters and annotate those as well. However, it is often still unclear what compounds these clusters are responsible for. If we would know what compounds mined clusters likely produce and what mode of action those compounds deploy, we can target producing organisms in a more profitable way. Additionally, if we know what genomic sequence codes for what enzymatic machinery, and how that translates to what compound, we can use that knowledge to bioengineer biosynthetic gene clusters more effectively in order to produce complex compounds by deploying nature's machinery.    
 
 #### How am I hoping to contribute?
+* Currently, I am using message passing neural networks (MPNNs) to learn biologically relevant molecular conformers in order to improve bioactivity prediction. The manuscript is still a work in progress, but you can already have a look at an online repository I made that houses an in-house dataset of compounds with bioactivity labels we created [here](https://donphan-database.github.io/#/Molecule).
+* I am also working on a graph neural network (GNN) link predictor for predicting regioselectivity of tailoring enzymes on natural product scaffold structures. This Tailoring Enzymes Regioselectivity Predictor (TERP) is still a work in progress. I will present TERP this May in Copenhagen, Denmark at the [Natural Products (Meta)Genome Mining](https://cph-bioscience.com/en/events/natural-products-genome-mining) meeting and in June at the [International Conference on Chemical Structures](https://iccs-nl.org/) in Noordwijkerhout, The Netherlands. 
+* Another project I am working is a platform for researching polyketide backbone motifs. We will use this platform for finding and investigating common polyketide motifs. You can some intermediate results [here](https://github.com/davidmeijer/monomer_aligner).
 
-* Check out the website I made for Van der Hooft Computational Metabolomics group: https://vdhooftcompmet.github.io/. I also created a template you can easily use to create your own group website: 
-* Check out the  Database Of Numerous PHarmaceuticals And Natural products
-* Motif searching
-* Experimenting olecular visualization: 
-* Mitja's project
+#### Other projects I am working on
+* Check out the website I made for Van der Hooft Computational Metabolomics group [here](https://vdhooftcompmet.github.io/). I also created a template you can easily use to create your own group website which you can find [here](https://github.com/vdhooftcompmet/group-website).
+* I like to experiment with 3D molecular visualization tools and write wrappers for them to fit my needs. I made a [wrapper around 3dmol.js](https://github.com/davidmeijer/mol2html), a [ray-tracer](https://github.com/davidmeijer/molray), and a [wrapper around PyVista for making gifs](https://github.com/davidmeijer/pyvista-molecule).
